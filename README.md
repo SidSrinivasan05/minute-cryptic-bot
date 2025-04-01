@@ -20,6 +20,9 @@ https://www.minutecryptic.com/
 
 ## Modules
 - Selenium
+- BeautifulSoup
+- Requests
+- Sys
 - Pandas
 
 ## Background

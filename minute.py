@@ -14,6 +14,9 @@ import time
 
 import sys
 
+import os
+from dotenv import load_dotenv
+
 
 current_time = time.time()
 current_struct_time = time.localtime(current_time)
@@ -97,10 +100,13 @@ for i in range(0, len(x)-number+1):
 firlas_word = (element_list[0], element_list[-1])
 
 def api_call(word): 
-    #   '6izjF6VV2q77EUVRnpqB0Q==CnECnng0UK6SOOnm'
-    #word = 'elegant'
+
+    load_dotenv()
+
+    api_key = os.environ.get("API_KEY")
+
     api_url = 'https://api.api-ninjas.com/v1/thesaurus?word={}'.format(word)
-    response = requests.get(api_url, headers={'X-Api-Key': '6izjF6VV2q77EUVRnpqB0Q==CnECnng0UK6SOOnm'})
+    response = requests.get(api_url, headers={'X-Api-Key': api_key})
     if response.status_code == requests.codes.ok:
         return response.json() 
     else:
@@ -184,6 +190,10 @@ if len(arguments) > 1:
         add_to_wins(curr_date, full_string, 0)
     else:
         add_to_wins(curr_date, full_string, 1)
+
+
+
+
 
 
 

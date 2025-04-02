@@ -18,6 +18,13 @@ https://www.minutecryptic.com/
 - Prints out whether it solved it or not. Saved this to a csv file.
 - Can access its success rate (~33.33%)
 
+## Installation
+```sh
+git clone https://github.com/SidSrinivasan05/minute_cryptic_bot.git
+
+
+```
+
 ## Modules
 - Selenium
 - BeautifulSoup

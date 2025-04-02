@@ -2,7 +2,7 @@
 
 # Minute Cryptic Scraper & Solver
 
-This Python project scrapes the **Minute Cryptic Puzzle** from the web and attempts to solve it using natural language processing and pattern matching techniques.
+This Python project scrapes the **Minute Cryptic Puzzle** from the web and attempts to solve it.
 
 https://www.minutecryptic.com/
 

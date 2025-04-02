@@ -21,8 +21,18 @@ https://www.minutecryptic.com/
 ## Installation
 ```sh
 git clone https://github.com/SidSrinivasan05/minute_cryptic_bot.git
+cd minute_cryptic_bot
+```
 
+## Usage
+To save the most recent minute cryptic to a text file run
+```sh
+python minute.py
+```
 
+If you already have saved the most recent minute cryptic, or want to save it and test all possible answers run the same command but with any other keyword afterwards
+```sh
+python minute.py 0
 ```
 
 ## Modules

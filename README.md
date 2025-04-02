@@ -35,6 +35,12 @@ If you already have saved the most recent minute cryptic, or want to save it and
 python minute.py 0
 ```
 
+To see how successful the program has been overall try
+```sh
+python success_data.py
+```
+
+
 ## Modules
 - Selenium
 - BeautifulSoup

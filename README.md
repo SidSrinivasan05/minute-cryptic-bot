@@ -10,7 +10,7 @@ https://www.minutecryptic.com/
 - **Attempts to solve clues** Attempts all of these submissions to try and solve the Minute Cryptic. Returns whether or not it could solve it
 
 ## How it works
-- Uses selenium to scrape the Minute Cryptic and the length of the cryptic. Saves this information to a text file, along with the date
+- Uses Selenium to scrape the Minute Cryptic and the length of the cryptic. Saves this information to a text file, along with the date
 - If given an extra key word in the terminal, it will create a list of potential answers and using selenium, will see if it can find the answers
 - Potential Answers are words within the clue itself that match the length of the cryptic, and synonyms of the first and last word of the clue (that also match the length)
 - Prints out whether it solved it or not. Saved this to a csv file.
